@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    height: 100%;
+    background-color: rgb(201, 201, 254);
+    margin: 0 auto;
+}
+
+.navbar {
+    padding-top: 24px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 24px;
+    max-width: 976px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar {
+    display: flex;
+    gap: 30px;
+}
