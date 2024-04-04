@@ -27,10 +27,11 @@ body {
     padding-left: 110px;
     padding-right: 110px;
     margin-bottom: 164px;
-    max-width: 976px;
+    max-width: 1150px;
     height: 84px;
     display: flex;
     margin: 0 auto;
+    gap: 30px;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(rgb(106, 158, 255),rgb(0, 0, 255));
@@ -63,6 +64,7 @@ body {
     background-color: rgb(0, 120, 185);
     border: solid 2px black;
     text-align: center;
+    box-shadow: -4px 10px 20px 0px black;
 }
 
 .card-name {
